@@ -9,7 +9,7 @@ import { IoIosArrowBack } from "react-icons/io";
 
 
 
-function article({article}) {
+function Article({article}) {
   const ref = React.useRef();
 
   return (
@@ -84,4 +84,4 @@ export const getStaticPaths = async () => {
   }
 }
 
-export default article
+export default Article
