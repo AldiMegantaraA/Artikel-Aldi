@@ -1,0 +1,24 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 210px;
+    bottom: 0;
+    position: relative;
+    padding: 40px 60px;
+    background: #5f5f5f;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer .logo{
+    width: 200px;
+    height: auto;
+}

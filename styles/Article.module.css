@@ -1,0 +1,85 @@
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin-top: 3rem;
+}
+
+.btnDownload{
+  border:1px solid #00c577;
+  color: #00c577;
+  background: #fff;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 1rem;
+}
+.btnDownload:hover{
+  background-color: #00c577;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 528px;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #003116;
+  box-shadow: 1px 3px 5px #707070;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.card .img{
+  width: 50%;
+  height: auto;
+  align-self: center;
+  align-items: center;
+}
+
+.logo {
+  height: 1em;
+}
+
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
